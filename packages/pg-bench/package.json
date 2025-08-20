@@ -1,0 +1,36 @@
+{
+  "name": "pg-bench",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "> TODO: description",
+  "author": "Herman J. Radtke III <herman@hermanradtke.com>",
+  "homepage": "https://github.com/brianc/node-postgres#readme",
+  "license": "MIT",
+  "main": "lib/pg-bench.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianc/node-postgres.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/brianc/node-postgres/issues"
+  },
+  "dependencies": {
+    "mitata": "^1.0.34",
+    "pg": "^8.16.2",
+    "tsx": "^4.20.3",
+    "typescript": "^4.0.3"
+  }
+}
